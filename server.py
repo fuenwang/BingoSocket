@@ -72,7 +72,7 @@ def CheckWin(score1, score2):
         return False
 
 if __name__ == '__main__':
-    bind_ip = "140.114.27.221"
+    bind_ip = "0.0.0.0"
     bind_port = int(sys.argv[1])
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.bind((bind_ip, bind_port))
